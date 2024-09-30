@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+table, tr{
+    border-width: 10px;
+    background-color: aquamarine;
+    width: 100%;
+    border-style: groove;
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+#heading{
+    text-align: center;
+    color: orange;
+    background-color: aqua;
+    font-size: 70px;
+}
+#row1{
+    text-align: center;
+}
+#row2{
+    text-align: center;
+}
