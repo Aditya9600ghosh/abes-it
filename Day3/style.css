@@ -1,26 +1,26 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
-
-table, tr{
-    border-width: 10px;
-    background-color: aquamarine;
-    width: 100%;
-    border-style: groove;
-    border-color: blueviolet;
-    border-radius: 20px;
+table{
+    background-color: rgb(148, 185, 98);
+    border-width: 5px;
+    border-style: dashed;
+    width:100%;
+    border-color: brown;
+    border-radius: 10px;
 }
 #heading{
+    background-color: chartreuse;
+    font-size: 60px;
     text-align: center;
-    color: orange;
-    background-color: aqua;
-    font-size: 70px;
+    color: cadetblue;
 }
 #row1{
+    background-color: red;
     text-align: center;
 }
 #row2{
+    background-color: green;
     text-align: center;
 }
