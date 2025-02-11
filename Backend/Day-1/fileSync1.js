@@ -10,14 +10,38 @@ function myReadFile() {
     }
 }
 const myWriteFile = (data) => {
-    try{
-        fs.writeFileSync("dummy.txt",data); // write returns undefine
+    try {
+        fs.writeFileSync("dummy.txt", data); // write returns undefine
         console.log("Successfully Written File");
     }
-    catch(err){
+    catch (err) {
         console.log("File Writing Error", err.message);
     }
 }
-myReadFile();
-myWriteFile("I am a Software Engineer");
-myReadFile();
+const myAppendFile = (data) => {
+    try {
+        fs.appendFileSync("dummy.txt", data);
+        console.log("Appended Data Successfully");
+    }
+    catch (err) {
+        console.log("File Appending Error", err.message);
+    }
+}
+
+const myDeleteFile = (filename) => {
+    try {
+        fs.unlinkSync(filename);
+        console.log("Data Deleted Successfully");
+    }
+    catch (err) {
+        console.log("File Deletion Error", err.message);
+    }
+}
+
+module.exports = {
+    myReadFile : myReadFile,
+    myWriteFile : myWriteFile,
+    myAppendFile : myAppendFile,
+    myDeleteFile : myDeleteFile,
+    usernmae : "Aditya",
+}
