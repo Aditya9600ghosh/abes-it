@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.d-contain {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.d-title {
+    font-size: 24px;
+    color: yellow;
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    color: #28a745;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.user-section {
+    margin-bottom: 20px;
+}
+
+#fetch_Btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#fetchButton:hover {
+    background-color: #218838;
+}
+
+#userFilter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#userList {
+    margin-top: 10px;
+    list-style: none;
+    text-align: left;
+}
+
+#userList li {
+    color: blue;
+    cursor: pointer;
+}
+
+#logoutButton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#logoutButton:hover {
+    background-color: darkred;
+}
